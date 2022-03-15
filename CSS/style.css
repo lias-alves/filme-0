@@ -1,0 +1,293 @@
+/*@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css')*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.733);
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+header{
+    display: flex;
+    max-width: 100%;
+    min-width: 445px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    position: sticky;
+}
+
+.pesquisa{
+  background-color: rgba(255, 255, 255, 0.658);
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid white;
+  
+}
+
+.menu-a{
+    display: none;
+}
+
+.menu-input{
+    display: none;
+}
+
+label{
+    width: 10px;
+    display: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.menu-bu{
+    padding: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.menu-input:checked + nav{
+    display: block;
+    color: red;
+    text-align: right;
+}
+
+.menu-input:checked + nav .menu-a{
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 2px 10px 2px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.menu-input:checked + nav .menu-a:hover{
+    background-color: black;
+    color: rgb(255, 0, 0);
+}
+
+nav{
+    width: 100%;
+    height: 25px;
+    padding-top: 6px;
+    padding-right: 2px;
+    text-align: center; 
+}
+
+nav a{
+    color: white;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: bolder;
+}
+
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.705);
+    color: red;
+    padding: 10px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+main{
+    max-width: 1500px;
+    min-width: 486px;
+    margin: auto;
+}
+
+img{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+a{
+    color: rgba(255, 255, 255, 0.699);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+.destaque{
+    height: 400px;
+    min-width: 300px;
+    background-color: aqua;
+    box-shadow: inset -58px -15px -1px 32px rgb(0 0 0 / 50%);
+}
+
+.destaque button{
+    width: 155px;
+    height: 40px;
+    margin-top: 283PX;
+    margin-left: 45PX;
+    border-radius: 6px;
+    border: 3px solid black;
+    background-color: rgba(255, 0, 0, 0.692);
+    color: white;
+    font-weight: bolder;
+}
+
+.destaque button:hover{
+    background-color: rgba(0, 0, 255, 0.616);
+    color: rgba(255, 0, 0, 0.884);
+}
+
+.nomes-film{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.822), transparent);
+    margin: 10px 0px 3px 30px;
+    padding: 5px;
+    box-shadow: 9px 7px 5px rgba(0, 0, 0, 0.363);
+}
+
+.video-st{
+    display: inline-block;
+    width: 60px;
+    height: 100px;
+    padding-left: 40px;
+    margin: 20px auto 10px auto;
+    border: 5px solid rgba(55, 0, 255, 0.815);
+    border-radius: 60px;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.63);
+}
+
+iframe{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    margin-left: -40px;
+}
+
+article{
+    display: flex;
+}
+
+article > div{
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.651);
+    position: relative;
+    margin-top: 50px;
+    margin: auto;
+}
+
+aside{
+    display: flex;
+    padding: 10px;
+}
+
+aside > div{
+    display: flex;
+    margin: auto;
+}
+
+.lista-filmes{
+    width: 150px;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.678);
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    border-radius: 10PX;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.308);
+    text-align: center;
+}
+
+.corre-butto{
+    
+    padding: 10px;
+    text-align: right;
+}
+
+.mais-filme{
+    width: 100px;
+    height: 30px;
+    border-radius: 7px; 
+    font-weight: bold;
+    background-color: brown;
+    color: rgba(255, 255, 255, 0.603);
+    text-align: center;
+    border: 0px;
+    box-shadow: 2px 2px 2px rgba(49, 40, 40, 0.514);
+}
+
+.mais-filme:hover{
+    background-color: rgba(0, 0, 255, 0.616);
+    color: rgb(255, 0, 0);
+}
+
+footer{
+    max-width: 1500px;
+    min-width: 300px;
+    background-color: rgba(0, 0, 0, 0.884);
+    padding: 5px;
+    font-weight: none;
+    text-align: center;
+}
+
+.whattt{
+    color: aqua;
+    background-color: brown;
+}
+
+
+@media(max-width: 1260px){
+    .lista-000{
+        display: none;
+    }
+}
+
+
+
+
+@media(max-width: 808px){
+
+    label{
+      display: block;
+      text-align: left;
+      padding-left: 10px;
+    }  
+    .menu-lista{
+        display: none;
+    }
+    
+    .pesquisa{
+        display: none;
+    }
+
+    .video-st{
+        min-width: 60px;
+        height: 100px;
+        margin: 10px auto 10px auto;
+    }
+    .video-some{
+        display: none;
+    }
+
+    .lista-filmes{
+        width: 100px;
+        height: 180px;
+        margin: 10px auto 10px auto;
+    }
+
+    .corre-butto{
+        min-width: 200px;
+        margin: auto;
+    }
+     
+    .button{
+        border: 0px;
+    }
+    .lista-some{
+        display: none;
+    }
+    
+    img{
+        width: 100px;
+        height: 150px;
+    }
+}
